@@ -1,0 +1,22 @@
+{
+    "name": "danil/pop-it-mvc",
+    "description": "laba1",
+    "type": "project",
+    "license": "MIT",
+    "authors": [{
+        "name": "Danilwadw",
+        "email": "danilmerpulatov228@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+
+}
